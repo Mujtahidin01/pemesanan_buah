@@ -24,13 +24,13 @@ function diskon()
 {
  var myForm = document.form1;
 
- if(myForm.total.value < 50000)
+ if(myForm.total.value < 100000)
  {
   myForm.potongan.value = 0;
  }
  else
  {
-  myForm.potongan.value = 20%;
+  myForm.potongan.value = "10%";
  }
 }
 
