@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>Tugas | Penjualan Buah</title>
+ <script type="text/javascript" src="javascript.js"></script>
+</head>
+
+<body>
+ <h1>Daftar Harga Buah</h1>
+
+ <form name=form1 action="#">
+ <table cellpadding=3 border=1>
+  <tr>
+   <th width=30>No.</th>
+   <th width=250>Buah</th>
+   <th width=200>Harga</th>
+   <th width=200>Pesan</th>
+  </tr>
+
+  <tr>
+   <td>1.</td>
+   <td>Apel</td>
+   <td>Rp. <input type="text" name="harga1" value="23000" readonly></td>
+   <td><center><input type="text" name="jumlah1" onchange="tampil()" onclick="tampil()" style="text-align:center"></center></td>
+  </tr>
+
+  <tr>
+   <td>2.</td>
+   <td>Pisang</td>
+   <td>Rp. <input type="text" name="harga2" value="12000" readonly></td>
+   <td><center><input type="text" name="jumlah2" onchange="tampil()" onclick="tampil()" style="text-align:center"></center></td>
+  </tr>
+
+  <tr>
+   <td>3.</td>
+   <td>Anggur</td>
+   <td>Rp. <input type="text" name="harga3" value="35000" readonly></td>
+   <td><center><input type="text" name="jumlah3" onchange="tampil()" onclick="tampil()" style="text-align:center"></center></td>
+  </tr>
+
+  <tr>
+   <td>4.</td>
+   <td>Mangga</td>
+   <td>Rp. <input type="text" name="harga4" value="17000"  readonly></td>
+   <td><center><input type="text" name="jumlah4" onchange="tampil()" onclick="tampil()"  style="text-align:center"></center></td>
+  </tr>
+
+  <tr>
+   <td colspan=3 align="right">JUMLAH TOTAL</td>
+   <td><center>Rp. <input type="text" name="total" style="text-align:right" readonly></center></td>
+  </tr>
+
+  <tr>
+   <td colspan=3 align="right">DISKON</td>
+   <td><center>Rp. <input type="text" name="potongan" style="text-align:right" readonly></center></td>
+  </tr>
+
+  <tr>
+   <td colspan=3 align="right">JUMLAH BAYAR</td>
+   <td><center>Rp. <input type="text" name="bayar" style="text-align:right" readonly></center></td>
+  </tr>
+ </table>
+ <br />
+ <input type="button" value="Hapus" onclick="cancel()" />
+</form>
+<br /><br />
+&copy;Mujtahidin
+</body>
+</html>
