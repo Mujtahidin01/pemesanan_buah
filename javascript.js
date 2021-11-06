@@ -30,7 +30,7 @@ function diskon()
  }
  else
  {
-  myForm.potongan.value = "10%";
+  myForm.potongan.value = 20%;
  }
 }
 
