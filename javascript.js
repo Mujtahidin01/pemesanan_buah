@@ -23,14 +23,12 @@ function Total()
 function diskon()
 {
  var myForm = document.form1;
+ 
+ if(myForm.total.value < 100000){
 
- if(myForm.total.value < 100000)
- {
-  myForm.potongan.value = 0;
- }
- else
- {
-  myForm.potongan.value = 25000;
+  myForm.potongan.value = "0%";
+ } else{
+ 	myForm.potongan.value = myForm.total.value * 0.10;
  }
 }
 
