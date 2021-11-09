@@ -28,7 +28,7 @@ function diskon()
 
   myForm.potongan.value = "0%";
  } else{
- 	myForm.potongan.value = myForm.total.value * 0.10;
+ 	myForm.potongan.value = myForm.total.value * 0.15;
  }
 }
 
